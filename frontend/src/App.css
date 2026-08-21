@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.login-container{
+  border: 2px solid green;
+  padding: 30px;
+  text-align: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.login-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-input input{
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.login-btn{
+  height: 35px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.dashboard{
+  display: flex;
+}
+
+.sidebar{
+  height: 100vh;
+  padding: 30px;
+  background-color: aquamarine;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:60px;
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(205, 242, 230);
+}
+
+.logout-btn{
+  padding: 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.main{
+  height: 100vh;
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+}
+
+.product-toolbar{
+  min-height: 100px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-toolbar button,
+.product-actions button{
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.product-toolbar button{
+  background-color: rgb(254, 63, 63);
+}
+
+.product-list{
+  padding: 0 30px 30px;
+}
+
+.product-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 12px;
+  border: 1px solid #d5e5df;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.product-row h2{
+  margin-bottom: 8px;
+}
+
+.product-actions{
+  display: flex;
+  gap: 8px;
+}
+
+.error-message{
+  color: #b00020;
+  padding: 0 30px 15px;
+}
